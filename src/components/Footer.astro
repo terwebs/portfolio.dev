@@ -1,0 +1,19 @@
+---
+import Github from "./icons/Github.astro"
+const currentYear = new Date().getFullYear()
+---
+
+<footer
+  class="container flex justify-between item-center mx-auto max-w-5xl px-8 py-4 my-8"
+>
+    <span class="text-sm sm:text-center flex items-center text-slate-500">
+      © {currentYear}
+      Webster Muñoz
+    </span>
+    <span class="text-sm sm:text-center flex items-center gap-2 text-slate-500">
+      Powered by <a href="https://astro.build/">
+      <img class='size-5' src="/astro.svg" alt="Astro">
+      </a>
+    </span>
+
+</footer>

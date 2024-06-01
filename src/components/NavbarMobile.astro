@@ -1,0 +1,30 @@
+---
+import Briefcase from "./icons/Briefcase.astro";
+import Code from "./icons/Code.astro";
+import Email from "./icons/Email.astro";
+import User from "./icons/User.astro";
+
+
+---
+
+<nav class="fixed navbarMobile scrolled top-0 z-10 transition duration-300 mx-auto w-full px-8 py-4 ">
+  <div class="flex gap-x-10 opacity-90 items-center justify-between">
+    <a class="nav-link hover:scale-110" href="#top">
+      <img width="32" height="32" src="mii_ter.png" alt="webster logo" class=" rounded-full">
+    </a>
+    
+    <a class="nav-link hover:text-sky-300" href="#experience">
+      <Briefcase />
+    </a>
+    <a class="nav-link hover:text-sky-300" href="#projects">
+      <Code />
+    </a>
+    <a class="nav-link hover:text-sky-300" href="#about">
+      <User />
+    </a>
+    <a class="nav-link hover:text-sky-300" href="mailto:webster.munoz@outlook.com">
+      <Email />
+    </a>
+  </div>
+</nav>
+
